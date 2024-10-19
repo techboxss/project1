@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .nav-links ul li {
+    margin-right: 15px;
+    position: relative;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .buy-theme {
+    color: #ff4500;
+    font-weight: 600;
+  }
+  
+  .header-right .contact-info {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .header-right .contact-info strong {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  
+  .dropdown {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    padding: 10px 0;
+    z-index: 999;
+  }
+  
+  .dropdown a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dropdown a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .nav-links ul li:hover .dropdown {
+    display: block;
+  }
+  
+  .menu-btn {
+    background: none;
+    border: none;
+    display: flex;      
+    align-items: center; 
+    cursor: pointer;
+  }
+  
+  .menu-btn i {
+    margin-right: 8px; 
+    font-size: 16px;   
+  }
+  
+  .menu-text {
+    display: flex;
+    align-items: center; 
+    font-size: 16px;
+  }
+  
+  .dropdown-icon {
+    font-size: 10px;
+    margin-left: 5px;   
+    color: #999;
+  }
+  
