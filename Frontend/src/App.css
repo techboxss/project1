@@ -1,15 +1,15 @@
 .App {
-    max-width: 1000px; /* Reduced the max-width to make the container smaller */
+    max-width: 1000px; 
     margin: 0 auto;
-    padding: 10px; /* Reduced padding for less space inside the container */
+    padding: 10px;
   }
   
   .category-section {
-    margin-bottom: 30px; /* Reduced the bottom margin for a more compact layout */
+    margin-bottom: 30px; 
   }
   
   .category-section h3 {
-    font-size: 20px; /* Reduced the font size of the section title */
+    font-size: 20px; 
     margin-bottom: 15px;
     font-weight: bold;
   }
@@ -17,38 +17,38 @@
   .product-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px; /* Reduced the gap between product cards */
+    gap: 15px; 
   }
   
   .product-card {
     border: 1px solid #ddd;
-    padding: 15px; /* Reduced padding inside the product card */
-    border-radius: 6px; /* Slightly reduced border-radius for a more compact look */
-    text-align: left; /* Align text to the left for more professional look */
+    padding: 15px; 
+    border-radius: 6px; 
+    text-align: left; 
     background-color: white;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Reduced shadow intensity */
-    display: flex; /* Flexbox to arrange image and details horizontally */
-    align-items: center; /* Vertically center image and text */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    align-items: center;
   }
   
   .product-image {
-    width: 80px; /* Reduced the image size */
+    width: 80px; 
     height: 80px;
     object-fit: contain;
-    margin-right: 15px; /* Add space between image and text */
+    margin-right: 15px; 
   }
   
   .product-details {
-    flex: 1; /* Take up the remaining space next to the image */
+    flex: 1;
   }
   
   .product-details h4 {
-    font-size: 16px; /* Reduced the font size of the product title */
+    font-size: 16px; 
     margin-bottom: 5px;
   }
   
   .reviews {
-    font-size: 12px; /* Reduced the font size of the reviews text */
+    font-size: 12px; 
     color: #666;
     margin-bottom: 8px;
   }

@@ -4,7 +4,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Import your components
+
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import About from './components/Pages/About';
@@ -19,7 +19,7 @@ import ProductGrid from './components/ProductGrid';
 import Pages from './components/Pages';
 import Support from './components/Support';
 import Footer from './components/Footer';
-import CategorySection from './components/CategorySection'; // New component
+import CategorySection from './components/CategorySection'; 
 
 const App = () => {
   // Product data
@@ -103,7 +103,7 @@ const App = () => {
       <Header />
       <Navbar />
       <Routes>
-        {/* Home page */}
+       
         <Route 
           path="/" 
           element={
@@ -121,7 +121,7 @@ const App = () => {
             </>
           } 
         />
-        {/* Other routes */}
+       
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/store-location" element={<StoreLocation />} />
